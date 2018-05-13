@@ -10,4 +10,4 @@ Skills practiced :
 
 # Live Demo
 
-## Demo review(https://patriciamasioni.github.io/ColorGame/)
+## [Demo review](https://patriciamasioni.github.io/ColorGame/)

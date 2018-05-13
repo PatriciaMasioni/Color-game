@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>fun</title>
+
+  </head>
+  <body>
+    <section id="info">
+    <h3> Press the mouse to play !
+    </3>
+
+
+    <script>
+
+    function setup() {
+      createCanvas(800, 500);
+      colorMode(RGB);
+
+    }
+
+    var x=0;
+    var y=10
+        p= 20;
+
+    function draw(){
+
+   background(27, 20, 100);
+   rect(x, 0, x, height);
+   rect(y, 200, y, height);
+   rect(p, 100, p, height);
+
+      }
+
+
+function mousePressed() {
+  fill(random(255), random(255), 153);
+
+   x += 5;
+
+   fill(random(255), random(255), 20);
+   y += 2;
+   p += 16;
+   redraw();
+ }
+
+
+  </script>
+
+
+
+    <script src="P5/p5.min.js"> </script>
+    <script src="JS/jquery-3.3.1.min.js"> </script>
+<!--    <scrip src="P5/sketch.js"> </script> DONT WORK (?) -->
+
+
+  </body>
+</html>
